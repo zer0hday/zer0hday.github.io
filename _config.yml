@@ -1,0 +1,26 @@
+# General settings
+title: zer0hday
+description: tryhackme writeups by an infosec analyst <script src="https://tryhackme.com/badge/263180"></script>
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+remote_theme: zer0hday/zer0h-style-please
+theme_config:
+  appearance: "light" # can be "light", "dark" or "auto"
+  back_home_text: "Home" # customize text for homepage link in post layout
+  date_format: "%d %B, %Y" # date shown in posts
+  date_format_short: "%d/%m/%y" # short date format shown in post lists/archive
+  show_description: true # show blog description in home page
+  pygments: "monokai" # syntax highlighting design -- choose any from https://jwarby.github.io/jekyll-pygments-themes/languages/ruby.html
+
+markdown: kramdown
+kramdown:
+  highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag

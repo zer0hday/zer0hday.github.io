@@ -1,0 +1,15 @@
+# Front page
+
+entries:
+  - title: whoami
+    entries:
+      - title: rohan littler // zer0hday
+      - title: aspiring pentester
+      - title: tryhackme
+        url: https://tryhackme.com/p/zer0hday
+
+  - title: writeups
+    post_list: true
+
+  - title: rss
+    url: feed.xml
