@@ -3,6 +3,7 @@ title: zer0hday
 description: tryhackme writeups by an infosec analyst <script src="https://tryhackme.com/badge/263180"></script>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:categories/:title
 
 remote_theme: zer0hday/zer0h-style-please
 theme_config:
